@@ -1,3 +1,7 @@
+@font-face{
+	font-family: sofia;
+	src: url("../assets/fonts/Sofia-Regular.ttf");
+}
 /* - - - - - G E N E R A L - - - - - */
 body{
 	background-image: url("../assets/img/photos/fondobody.jpg");
@@ -12,6 +16,8 @@ h1{
 	-webkit-text-stroke: 1px black;
 }
 h2{
+	font-family: sofia;
+	font-size: 2em;
 	margin: 0;
 	padding-bottom: 0.5em;
 	text-align: center;
