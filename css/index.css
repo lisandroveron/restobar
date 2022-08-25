@@ -17,6 +17,16 @@ h2{
 	text-align: center;
 	border-bottom: 3px inset white;
 }
+form{
+	margin: 1em auto;
+	/*text-align: center;*/
+	width: fit-content;
+}
+form input[type="submit"]{
+	display: block;
+	border: none;
+	margin: 0 auto;
+}
 /* - - - - - G E N E R A L - E N D - - - - - */
 
 /* - - - - - H E A D E R - - - - - */
@@ -60,10 +70,6 @@ header a{
 }
 .pricelist td{
 	border-bottom: 1px solid grey;
-}
-.pricelist form{
-	margin-top: 1em;
-	text-align: center;
 }
 .pricelist fieldset{
 	margin: 1em;
