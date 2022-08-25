@@ -66,6 +66,9 @@ header a{
 	outline: 1px dashed white;
 	outline-offset: -5px;
 }
+.pricelist ul{
+	margin-bottom: 2em;
+}
 .pricelist table{
 	margin: 0 auto;
 	width: 95%;
