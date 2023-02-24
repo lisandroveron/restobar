@@ -1,0 +1,16 @@
+header{
+	display: grid;
+	grid-template-columns: 1fr auto 1fr;
+	grid-template-rows: 1fr auto;
+	grid-template-areas: "empty logo options"
+						 "nav nav nav"
+}
+header table{
+	grid-area: logo;
+}
+header nav{
+	grid-area: nav;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
