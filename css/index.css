@@ -1,3 +1,6 @@
+:root{
+	--black: rgb(17, 17, 17);
+}
 @font-face{
 	font-family: sofia;
 	src: url("../assets/fonts/Sofia-Regular.ttf");
@@ -11,6 +14,8 @@ body{
 	margin-right: auto;
 	margin-left: auto;
 	color: white;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
 }
 h1{
 	-webkit-text-stroke: 1px black;
@@ -37,9 +42,10 @@ form input[type="submit"]{
 
 /* - - - - - H E A D E R - - - - - */
 header{
-	background-image: url("../assets/img/photos/mediterraneo180.png");
+	/*background-image: url("../assets/img/photos/mediterraneo180.png");*/
 	background-position: center 80%;
 	margin-bottom: 1em;
+	height: 25%;
 }
 header table{
 	margin: auto;
@@ -48,7 +54,10 @@ header img{
 	height: 100px;
 }
 header nav{
-	text-align: center;
+	width: 100%;
+}
+header svg{
+	height: 50px;
 }
 header a{
 	color: inherit;
@@ -59,9 +68,8 @@ header a{
 /* - - - - - M A I N - - - - - */
 .pricelist{
 	padding: 1.5em 1em;
-	background-color: rgba(17, 17, 17, 1);
+	background-color: var(--black);
 	margin: 0 auto;
-	width: 95%;
 	border-radius: 1em;
 	outline: 1px dashed white;
 	outline-offset: -5px;
@@ -73,6 +81,7 @@ header a{
 	margin: 0 auto;
 	width: 95%;
 	text-align: center;
+	border-collapse: collapse;
 }
 .pricelist th{
 	padding: 1em 0;
