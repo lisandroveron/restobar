@@ -66,7 +66,7 @@ header a{
 /* - - - - - H E A D E R - E N D - - - - - */
 
 /* - - - - - M A I N - - - - - */
-.pricelist{
+.bordered{
 	padding: 1.5em 1em;
 	background-color: var(--black);
 	margin: 0 auto;
@@ -74,34 +74,35 @@ header a{
 	outline: 1px dashed white;
 	outline-offset: -5px;
 }
-.pricelist ul{
+.bordered ul{
 	margin-bottom: 2em;
 }
-.pricelist table{
+.bordered table{
 	margin: 0 auto;
 	width: 95%;
 	text-align: center;
 	border-collapse: collapse;
 }
-.pricelist th{
+.bordered th{
 	padding: 1em 0;
 }
-.pricelist td{
+.bordered td{
 	border-bottom: 1px solid grey;
 }
-.pricelist fieldset{
+.bordered fieldset{
 	margin: 1em;
 }
-.pricelist p{
+.bordered p{
 	text-align: center;
 }
-.pricelist tr td:nth-child(1){
+.bordered tr td:nth-child(1){
 	text-align: left;
 }
 /* - - - - - M A I N - E N D - - - - - */
 
 /* - - - - - F O O T E  R - - - - - */
 footer{
+	color: black;
 	text-align: center;
 }
 /* - - - - E N D - F O O T E  R - E N D - - - - */
